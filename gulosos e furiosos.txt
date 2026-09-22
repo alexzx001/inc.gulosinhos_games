@@ -1,1 +1,62 @@
-oi bb
+======================================================================
+                  ULTIMATE MAZE SANDBOX - GUIA DE JOGO
+======================================================================
+
+Seja bem-vindo ao Ultimate Maze Sandbox! Este guia explica como 
+jogar, navegar pelos mapas reais e utilizar todos os modos de 
+visualização e algoritmos do jogo.
+
+----------------------------------------------------------------------
+1. COMO INICIAR O JOGO
+----------------------------------------------------------------------
+- Abra o terminal/PowerShell na pasta do projeto.
+- Certifique-se de ter o Pygame instalado (pip install pygame).
+- Execute o comando: python main.py
+
+----------------------------------------------------------------------
+2. CONTROLES E NAVEGAÇÃO
+----------------------------------------------------------------------
+[ MOUSE ]
+  - Scroll (Roda do Mouse) : Zoom in / Zoom out.
+  - Clique Esquerdo + Arrastar : Mover o mapa (Pan) ou rotacionar no modo 3D.
+  - Clique Esquerdo (na grade) : Adicionar/Remover paredes ou definir nós.
+
+[ TECLADO ]
+  - W, A, S, D / Setas : Movimentar a câmera pelo labirinto.
+  - Barra de Espaço    : Iniciar / Pausar a simulação do algoritmo de busca.
+  - Tecla M            : Abrir a caixa de busca rápida para o Modo Mapa Real.
+  - Tecla R            : Resetar / Limpar o caminho gerado pelo algoritmo.
+
+----------------------------------------------------------------------
+3. MODOS DE VISUALIZAÇÃO
+----------------------------------------------------------------------
+Você pode alternar entre os modos na barra lateral ou nos seletores:
+
+- MODO 2D CLÁSSICO: Visão superior tradicional para criar e resolver 
+  labirintos baseados em grade de forma rápida.
+
+- MODO 3D ISOMÉTRICO / ORBITAL: O labirinto ganha altura e profundidade. 
+  Você pode girar a câmera em 360° para ver os agentes percorrendo as paredes.
+
+- MODO 1ª PESSOA (Dungeon Crawler): Você anda dentro do labirinto célula 
+  a célula. Um minimapa 2D aparece no canto inferior direito para ajudar 
+  na orientação.
+
+- MODO MAPA REAL (OpenStreetMap):
+  1. Aperte a tecla 'M' ou use o painel lateral.
+  2. Digite o nome de uma rua ou cidade (Ex: "Avenida Paulista, Sao Paulo").
+  3. O jogo baixará e desenhará o mapa de ruas reais do local.
+  4. Selecione o Ponto Inicial (Start) e o Ponto Final (Exit) nas ruas.
+  5. Aperte ESPAÇO para ver o algoritmo A* / Dijkstra calculando a 
+     melhor rota pelas ruas da cidade!
+
+----------------------------------------------------------------------
+4. DICAS E PERFORMANCE
+----------------------------------------------------------------------
+- Os mapas reais baixados ficam salvos na pasta 'cache/' para que abram 
+  instantaneamente nas próximas vezes.
+- Se o mapa demorar a carregar, verifique sua conexão com a internet ou 
+  pesquise uma região com um nome mais específico.
+
+Bom jogo e boas simulações!
+======================================================================
