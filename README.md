@@ -7,7 +7,7 @@
 ## 📸 Demonstração do Projeto
 
 <p align="center">
-  <img src="watermarked_img_7819767323066790482.jpg" alt="Ultimate Maze Sandbox Concept" width="800"/>
+  <img src="foto_doJogo" alt="Ultimate Maze Sandbox Concept" width="800"/>
 </p>
 
 ---
